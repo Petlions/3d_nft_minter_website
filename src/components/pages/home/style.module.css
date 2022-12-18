@@ -1,0 +1,19 @@
+.typo1::after ,.typo1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .typo1::before{
+    background-color: #ffffff;
+    animation: typewrittwer 1s steps(30) forwards;
+  }
+
+  @keyframes typewrittwer {
+    to {
+        left: 100%;
+    }
+  }
+  
